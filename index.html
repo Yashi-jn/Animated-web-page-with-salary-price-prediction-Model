@@ -35,13 +35,12 @@
     <h1 data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
-     data-aos-offset="0"data-aos-duration="2000">EMAIL FOR <br>DEVELOPER</h1>
+     data-aos-offset="0"data-aos-duration="2000">SALARY PREDICTION <br>ENGINE<br></h1>
     <p  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
      data-aos-offset="0"data-aos-duration="2500" class="description">
-        the best way to reach humanss is by give them lalacch of money and tell me there
-         is free thing so they'll come automatically no need to push yourself.
+       Predict how your salary grows with experience using AI-powered insights.
     </p>
 
     <div data-aos="fade-zoom-in"
@@ -56,11 +55,96 @@
 </div>
 
 </main>
+
+<section class="cards-section">
+  <div class="cards-glow"></div>
+
+  <h2 data-aos="fade-down" data-aos-duration="1500" class="section-title">
+    Experience Simulator
+  </h2>
+
+  <div class="cards-grid" >
+
+    <!-- Experience -->
+    <div data-aos="zoom-in" data-aos-delay="1000" data-tilt data-tilt-glare class="box-card">
+      <h3>Experience</h3>
+      <input type="range" min="0" max="20" value="0" id="experienceSlider">
+      <p id="expValue">0 Years</p>
+    </div>
+
+    <!-- AI Model -->
+    <div  data-aos="zoom-in" data-aos-delay="1500" data-tilt data-tilt-glare class="box-card">
+      <h3>AI Model</h3>
+      <p>Analyzing your experience using ML model...</p>
+    </div>
+
+    <!-- Salary -->
+    <div  data-aos="zoom-in" data-aos-delay="2000" data-tilt data-tilt-glare class="box-card">
+      <h3>Salary</h3>
+      <p id="salary">₹0</p>
+    </div>
+
+    <!-- Stage
+    <div  data-aos="zoom-in" data-aos-delay="2500" class="box-card">
+      <h3>Career Stage</h3>
+      <p id="stage">Fresher</p>
+    </div> -->
+
+  </div>
+
+</section>
+
+
+
 <spline-viewer  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
      data-aos-offset="0"data-aos-duration="3000" class="robot-3d" url="https://prod.spline.design/BwC00782vIeYPKEl/scene.splinecode"></spline-viewer>
 </div>
+
+<section class="timeline-section">
+
+  <h2  data-aos="zoom-out" data-aos-duration="2500" class="timeline-title">Career Growth Timeline</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item left">
+      <div data-aos="fade-right" data-aos-duration="1500" 
+     class="timeline-content">
+        <h3>0 Years</h3>
+        <p>Starting Salary: ₹2 LPA</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div data-aos="fade-left"  data-aos-duration="2000" 
+     class="timeline-content">
+        <h3>2 Years</h3>
+        <p>₹4 LPA - Junior Level</p>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div data-aos="fade-right"  data-aos-duration="2500" 
+     class="timeline-content">
+        <h3>5 Years</h3>
+        <p>₹8 LPA - Mid Level</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div data-aos="fade-left"  data-aos-duration="3000" 
+      class="timeline-content">
+        <h3>10 Years</h3>
+        <p>₹15 LPA - Senior Level</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
 
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.73/build/spline-viewer.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -68,6 +152,11 @@
     AOS.init();
   </script>
 
+ 
+
+
+  <script src="tilt.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
